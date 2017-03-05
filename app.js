@@ -83,3 +83,5 @@ app.delete('/list',function (req, res) {
         })
     }
 });
+
+app.disable('x-powered-by');
